@@ -33,7 +33,7 @@ body {
   text-align: center; }
 
 .area-box {
-  border: solid 1px skyblue;
+  border: solid 2px skyblue;
   margin: 10px;
   flex: 1; }
 
