@@ -1,0 +1,63 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+// font-family
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #fdfcf6;
+$subColor: #bea300;
+$keyColor: #14c0c9;
+$fontColor: #4c4c4c;
+
+
+/* Base
+------------------------------------------------------------*/
+html{ font-size: 62.5%; }
+
+body{
+  color: $fontColor;
+  font-size: 1.4rem;
+  font-family:$baseFontFamily;
+  line-height:1.6;
+  letter-spacing: 0.1em;
+  background-color: $baseColor;
+}
+.box {
+  background-image: url("../images/sakura-main.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.text-center {
+  text-align: center;
+}
+.area-box {
+  border: solid 1px skyblue;
+  margin: 10px;
+  flex: 1;
+}
+.Contact {
+  text-align: center;
+}
+.mail {
+  border-radius: 10px;
+  width: 50px;
+  background-color: #f6bfbc;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
