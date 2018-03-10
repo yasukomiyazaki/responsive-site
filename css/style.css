@@ -47,6 +47,9 @@ body {
   display: inline-block; }
 
 @media (max-width: 768px) {
+  .box {
+    height: 250px; }
+
   .container {
     flex-direction: column; } }
 

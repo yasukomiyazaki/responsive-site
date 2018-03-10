@@ -34,6 +34,7 @@ body{
   text-align: center;
   font-weight: bold;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -56,6 +57,9 @@ body{
   display: inline-block;
 }
 @media (max-width: 768px) {
+  .box{
+    height:250px;
+  }
   .container {
     flex-direction: column;
   }
